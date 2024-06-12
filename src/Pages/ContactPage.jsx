@@ -1,14 +1,13 @@
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import emailjs from 'emailjs-com';
-import Loader from '../Components/Loader';
 import useAlert from "../Assets/Hooks/useAlert"
 import Alert from '../Components/Alert';
 
 const ContactPage = () => {
-    const formRef = useRef(null);
+    
     const [form, setForm] = useState({ name: '', email: '', message: ''})
     const [isLoading, setIsLoading] = useState(false);
-    const [currentAnimation, setcurrentAnimation] = useState('idle')
+    const [ setcurrentAnimation] = useState('idle')
 
     const {alert, showAlert, hideAlert} = useAlert();
 

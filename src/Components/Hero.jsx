@@ -1,7 +1,7 @@
 import React, { Suspense, useEffect, useState } from 'react';
 import Model from '../Components/Model';
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Environment, Html, Effects } from '@react-three/drei';
+import { OrbitControls, Environment, Html } from '@react-three/drei';
 import { Bloom, EffectComposer } from '@react-three/postprocessing';
 import globe from '../Assets/cyber_orb.glb';
 
