@@ -7,7 +7,6 @@ const ContactPage = () => {
     
     const [form, setForm] = useState({ name: '', email: '', message: ''})
     const [isLoading, setIsLoading] = useState(false);
-    const [currentAnimation, setcurrentAnimation] = useState('idle')
 
     const {alert, showAlert, hideAlert} = useAlert();
 
@@ -15,13 +14,9 @@ const ContactPage = () => {
         setForm({...form, [e.target.name]: e.target.value})
     };
 
-    const handleFocus = () => setcurrentAnimation('walk');
-    const handleBlur = () => setcurrentAnimation('idle');
-
     const handleSubmit = (e) => {
         e.preventDefault();
         setIsLoading(true);
-        setcurrentAnimation('hit');
 
         emailjs.send(
             process.env.REACT_APP_EMAILJS_SERVICE_ID,
@@ -40,13 +35,11 @@ const ContactPage = () => {
 
             setTimeout(() => {
                 hideAlert();
-                setcurrentAnimation('idle');
                 setForm({ name: '', email: '', message: ''});
             },[3000])
             
         }).catch((error) => {
             setIsLoading(false);
-            setcurrentAnimation('idle')
             console.log(error);
             showAlert({show: true, text: "I didn't recieve your message!", type: 'danger'})
         })
@@ -60,21 +53,19 @@ const ContactPage = () => {
                 <form className='w-full flex flex-col gap-7 mt-14 ' onSubmit={handleSubmit}>
                     <label className='text-black-500 font-semibold dark:text-white'>
                         Name
-                        <input type="text" name='name' className='input' placeholder='john' required value={form.name} onChange={handleChange} onFocus={handleFocus} onBlur={handleBlur} />
+                        <input type="text" name='name' className='input' placeholder='john' required value={form.name} onChange={handleChange} />
                     </label>
                     <label className='text-black-500 font-semibold dark:text-white'>
                         Email
-                        <input type="email" name='email' className='input' placeholder='john@gmail.com' required value={form.email} onChange={handleChange} onFocus={handleFocus} onBlur={handleBlur} />
+                        <input type="email" name='email' className='input' placeholder='john@gmail.com' required value={form.email} onChange={handleChange} />
                     </label>
                     <label className='text-black-500 font-semibold dark:text-white'>
                         Your Message
-                        <textarea name='message' rows={4} className='textarea' placeholder='Let me know how I can help you!' required value={form.message} onChange={handleChange} onFocus={handleFocus} onBlur={handleBlur} />
+                        <textarea name='message' rows={4} className='textarea' placeholder='Let me know how I can help you!' required value={form.message} onChange={handleChange} />
                     </label>
                     <button type='submit'
                     className='btn'
-                    disabled={isLoading}
-                    onFocus={handleFocus}
-                    onBlur={handleBlur}>
+                    disabled={isLoading}>
                         {isLoading ? 'Sending...' : 'Send Message'}
                     </button>
                 </form>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaNode, FaReact } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandThreejs } from "react-icons/tb";
 import { FaNodeJs } from "react-icons/fa";
