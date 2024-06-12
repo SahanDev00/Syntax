@@ -18,13 +18,13 @@ const Footer = () => {
                         <h1 className='font-bold drop-shadow-xl text-sm md:text-xl font-poppins'>© 2024 · SYNTAX SOLUTIONS</h1>
                     </div>
                     <div className='flex items-center justify-center'>
-                        <a href="">
+                        <a href="https://www.instagram.com/syntaxware">
                             <FaInstagram size={25} className='cursor-pointer mx-1 md:mx-3'/>
                         </a>
-                        <a href="">
+                        <a href="https://twitter.com/SyntaxSolutionz">
                             <FaTwitter size={25} className='cursor-pointer mx-1 md:mx-3'/>
                         </a>
-                        <a href="">
+                        <a href="https://github.com/SahanDev00">
                             <FaGithub size={25} className='cursor-pointer mx-1 md:mx-3'/>
                         </a>
                     </div>

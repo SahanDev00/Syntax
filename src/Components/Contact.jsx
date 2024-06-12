@@ -16,13 +16,15 @@ const Contact = () => {
       }
     );
 
-    if (contactRef.current) {
-      observer.observe(contactRef.current);
+    const currentContactRef = contactRef.current;
+
+    if (currentContactRef) {
+      observer.observe(currentContactRef);
     }
 
     return () => {
-      if (contactRef.current) {
-        observer.unobserve(contactRef.current);
+      if (currentContactRef) {
+        observer.unobserve(currentContactRef);
       }
     };
   }, []);
