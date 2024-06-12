@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* In your CSS file */
+@keyframes icon-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-33.33%); } /* Adjust to move one-third of the container */
+  }
+  
+  .icon {
+    margin: 0 20px;
+    /* Adjust the margin to make sure there's no gap */
+  }
+  
+  .animate-icons {
+    display: flex;
+    width: calc(100% * 3); /* Triple the width to account for the three sets of icons */
+    animation: icon-scroll 20s linear infinite; /* Adjust the duration as needed */
+  }
+  
+  @layer utilities {
+    .cta {
+      @apply w-full flex items-center md:flex-row flex-col sm:mt-16 mt-8 gap-7;
+    }
+  
+    .cta-text {
+      @apply font-extrabold flex-1 text-2xl md:text-3xl max-md:text-center;
+    }
+
+    .btn {
+      @apply text-white bg-gradient-to-r from-[#e469ff] to-[#da08ff] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center;
+    }
+
+    .input {
+      @apply bg-white border border-gray-200 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 mt-2.5 font-normal;
+    }
+  
+    .textarea {
+      @apply block p-2.5 w-full text-sm text-gray-900 bg-white rounded-lg border border-gray-200 focus:ring-blue-500 focus:border-blue-500 mt-2.5 font-normal ;
+    }
+  }
+
+  @keyframes floatUp {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .float-up {
+    opacity: 1 !important;
+    animation: floatUp 1s ease-out forwards;
+  }
