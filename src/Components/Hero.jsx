@@ -47,7 +47,7 @@ const Hero = () => {
             </div>
             <button className='mt-8 bg-black w-[150px] h-[50px] rounded-2xl hover:scale-105 duration-300 ease-in-out hover:shadow-md hover:shadow-purple-900 text-white'>Get Started</button>
         </div>
-        <Canvas camera={{ position: [3, 3, 3], fov: 50 }} style={{ width: '100%', height: '90%' }}>
+        <Canvas className='hidden sm:block' camera={{ position: [3, 3, 3], fov: 50 }} style={{ width: '100%', height: '90%' }}>
           <ambientLight intensity={1} />
           <directionalLight position={[50, 80, 5]} intensity={0.5} />
           <Suspense fallback={<Html center>Loading...</Html>}>
