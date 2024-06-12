@@ -7,7 +7,7 @@ const ContactPage = () => {
     
     const [form, setForm] = useState({ name: '', email: '', message: ''})
     const [isLoading, setIsLoading] = useState(false);
-    const [ setcurrentAnimation] = useState('idle')
+    const [currentAnimation, setcurrentAnimation] = useState('idle')
 
     const {alert, showAlert, hideAlert} = useAlert();
 
