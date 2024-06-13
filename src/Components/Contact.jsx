@@ -32,13 +32,13 @@ const Contact = () => {
   return (
     <div
       ref={contactRef}
-      className='w-[90%] lg:w-[80%] xl:w-[50%] h-[200px] mx-auto mt-20 border-purple-600 border-2 mb-4 opacity-0 transition-opacity duration-700 shadow-xl'
+      className='w-[90%] lg:w-[80%] xl:w-[50%] h-[200px] mx-auto mt-20 dark:border-purple-400 border-purple-600 border-2 mb-4 opacity-0 transition-opacity duration-700 shadow-xl'
     >
       <div className='py-10'>
-        <p className='cta-text dark:text-gray-100 mb-5'>
+        <p className='cta-text  mb-5 dark:text-white'>
           Have a project in mind? <br className='sm:block hidden' /> Let's build something together!
         </p>
-        <Link to='/Contact' className='btn'>Contact</Link>
+        <Link to='/Contact' className='btn hover:scale-105'>Contact</Link>
       </div>
     </div>
   );

@@ -48,10 +48,10 @@ const Projects = () => {
 ];
 
     return (
-        <div className=' w-[90%] xl:w-[80%] dark:bg-[#03001C] mx-auto mt-6'>
+        <div className=' w-[90%] xl:w-[80%] mx-auto mt-6'>
 
             <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-                <p className='text-xl mt-3'> Discover a showcase of my front-end development work. From dynamic and responsive websites to captivating user interfaces, each project demonstrates my expertise in creating visually stunning and highly functional digital experiences. Explore the portfolio to see how I bring ideas to life through code and design.</p>
+                <p className='text-xl mt-3 dark:text-white'> Discover a showcase of my front-end development work. From dynamic and responsive websites to captivating user interfaces, each project demonstrates my expertise in creating visually stunning and highly functional digital experiences. Explore the portfolio to see how I bring ideas to life through code and design.</p>
             </div>
             <div className='flex flex-wrap my-20 gap-16 text-left ml-10'>
                 {projects.map((project) => (
@@ -67,14 +67,14 @@ const Projects = () => {
                             <h4 className='text-2xl font-poppins font-semibold dark:text-white'>
                                 {project.name}
                             </h4>
-                            <p className='mt-2 text-slate-500'>
+                            <p className='mt-2 text-slate-500 dark:text-white'>
                                 {project.description}
                             </p>
-                            <div className='mt-5 flex items-center gap-2 font-poppins'>
-                                <Link to={project.link} target='_blank' rel='noopener noreferrer' className='font-semibold text-blue-600 text-lg'>
+                            <div className='mt-5 flex items-center gap-2 font-poppins '>
+                                <Link to={project.link} target='_blank' rel='noopener noreferrer' className='font-semibold text-blue-600 dark:text-blue-100 text-lg'>
                                     Live Link
                                 </Link>
-                                <FaArrowAltCircleRight size={20} alt="arrow" className='object-contain' />
+                                <FaArrowAltCircleRight size={20} alt="arrow" className='object-contain  dark:text-blue-100 hover:text-pink-400' />
                             </div>
                         </div>
                     </div>

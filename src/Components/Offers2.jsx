@@ -24,7 +24,7 @@ const Offers2 = () => {
   }, []);
 
   return (
-    <div className='w-[90%] xl:w-[80%] mx-auto mt-5'>
+    <div className='w-[90%] xl:w-[80%] mx-auto mt-5 dark:text-white'>
         {/* offer two */}
         <div className='w-full h-[350px] xl:mt-6'>
           <div className='sm:grid sm:grid-cols-2 h-full w-full'>
@@ -34,7 +34,7 @@ const Offers2 = () => {
               <p className='text-xl xl:mr-[5%]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam minima quidem accusantium quos tenetur ipsam repellendus, doloremque corporis ab atque, dignissimos veniam cumque, voluptas nemo provident! Hic, non necessitatibus. Vel molestias iste consequatur in perferendis quisquam iusto unde dolore minima?</p>
             </div>
             <div className=''>
-              <Canvas className='sm:block hidden' id="canvas1" camera={{ position: [10, 10, 10], fov: 50 }} >
+              <Canvas className='sm:block hidden dark:opacity-85' id="canvas1" camera={{ position: [10, 10, 10], fov: 50 }} >
                 <ambientLight intensity={0.5} />
                 <directionalLight position={[10, 1, 1]} intensity={2} />
                 <Suspense fallback={<Html center>Loading...</Html>}>

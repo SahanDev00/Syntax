@@ -46,7 +46,7 @@ const ContactPage = () => {
     };
 
     return (
-        <section className='relative w-[70%] xl:w-[50%] mx-auto flex lg:flex-row flex-col max-container h-[650px] dark:bg-[#03001C]'>
+        <section className='relative w-[70%] xl:w-[50%] mx-auto flex lg:flex-row flex-col max-container h-[650px] '>
             {alert.show && <Alert {...alert}/>}
             <div className='flex-1 min-w-[50%] flex flex-col'>
                 <h1 className='text-xl lg:text-3xl mt-10 font-semibold dark:text-white'>Contact Us and Let's Make a Project!</h1>

@@ -9,7 +9,7 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App dark:bg-gradient-to-tr from-[#9400FF] to-[#27005D] duration-300">
       <Router>
         <Navbar/>
         <Routes>
