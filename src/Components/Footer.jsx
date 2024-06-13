@@ -6,16 +6,8 @@ import {
     FaTwitter,
     FaGithub
 } from 'react-icons/fa';
-import { useLocation } from 'react-router-dom';
 
 const Footer = () => {
-
-    const location = useLocation();
-
-    const isActive = (path) => {
-        return location.pathname === path;
-    };
-
     return (
         <div className='w-full h-[80px] sm:h-[70px] md:h-[120px] mt-28 '>
             <hr/>
