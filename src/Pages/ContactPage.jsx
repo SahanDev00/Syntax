@@ -48,23 +48,23 @@ const ContactPage = () => {
     return (
         <section className='relative w-[70%] xl:w-[50%] mx-auto flex lg:flex-row flex-col max-container h-[650px] '>
             {alert.show && <Alert {...alert}/>}
-            <div className='flex-1 min-w-[50%] flex flex-col'>
-                <h1 className='text-xl lg:text-3xl mt-10 font-semibold dark:text-white'>Contact Us and Let's Make a Project!</h1>
+            <div className='flex-1 min-w-[50%] flex flex-col mt-10'>
+                <h1 className='text-xl lg:text-3xl mt-10 font-semibold text-white'>Contact Us and Let's Make a Project!</h1>
                 <form className='w-full flex flex-col gap-7 mt-14 ' onSubmit={handleSubmit}>
-                    <label className='text-black-500 font-semibold dark:text-white'>
+                    <label className='text-black-500 font-semibold dark:text-gray-200 text-white'>
                         Name
                         <input type="text" name='name' className='input' placeholder='john' required value={form.name} onChange={handleChange} />
                     </label>
-                    <label className='text-black-500 font-semibold dark:text-white'>
+                    <label className='text-black-500 font-semibold dark:text-gray-200 text-white'>
                         Email
                         <input type="email" name='email' className='input' placeholder='john@gmail.com' required value={form.email} onChange={handleChange} />
                     </label>
-                    <label className='text-black-500 font-semibold dark:text-white'>
+                    <label className='text-black-500 font-semibold dark:text-gray-200 text-white'>
                         Your Message
                         <textarea name='message' rows={4} className='textarea' placeholder='Let me know how I can help you!' required value={form.message} onChange={handleChange} />
                     </label>
                     <button type='submit'
-                    className='btn'
+                    className='btn dark:bg-gradient-to-r dark:to-[#3F0071] dark:from-[#9400FF]' 
                     disabled={isLoading}>
                         {isLoading ? 'Sending...' : 'Send Message'}
                     </button>

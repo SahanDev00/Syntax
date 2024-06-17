@@ -5,6 +5,7 @@ import estate from "../Assets/icons/estate.svg";
 import holiday from "../Assets/icons/holiday.svg";
 import grave from "../Assets/icons/grave.svg";
 import Travel from "../Assets/icons/Travel.svg";
+import food from "../Assets/icons/food.svg";
 
 
 const Projects = () => {
@@ -18,7 +19,7 @@ const Projects = () => {
         link: 'https://gravestore.netlify.app/',
     },
     {
-        iconUrl: grave,
+        iconUrl: food,
         theme: 'btn-back-yellow',
         name: "PoP's",
         description: 'A website for a restaurant made with React.js + Tailwind.css',
@@ -51,15 +52,15 @@ const Projects = () => {
         <div className=' w-[90%] xl:w-[80%] mx-auto mt-6'>
 
             <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-                <p className='text-xl mt-3 dark:text-white'> Discover a showcase of my front-end development work. From dynamic and responsive websites to captivating user interfaces, each project demonstrates my expertise in creating visually stunning and highly functional digital experiences. Explore the portfolio to see how I bring ideas to life through code and design.</p>
+                <p className='text-xl mt-3 dark:text-gray-200 text-white'> Discover a showcase of my front-end development work. From dynamic and responsive websites to captivating user interfaces, each project demonstrates my expertise in creating visually stunning and highly functional digital experiences. Explore the portfolio to see how I bring ideas to life through code and design.</p>
             </div>
             <div className='flex flex-wrap my-20 gap-16 text-left ml-10'>
                 {projects.map((project) => (
-                    <div className='lg:w-[400px] w-full' key={project.name}>
+                    <div className='lg:w-[400px] w-full text-white dark:text-gray-100' key={project.name}>
                         <div className=' w-12 h-12'>
                             <div className={` rounded-xl ${project.theme}`} />
                             <div className=' rounded-xl flex justify-center items-center'>
-                                <img src={project.iconUrl} alt="Project Icon" className='w-10 h-10 object-contain' />
+                                <img src={project.iconUrl} alt="Project Icon" className='w-10 h-10 object-contain text-white' />
                             </div>
                         </div>
 
@@ -67,14 +68,14 @@ const Projects = () => {
                             <h4 className='text-2xl font-poppins font-semibold dark:text-white'>
                                 {project.name}
                             </h4>
-                            <p className='mt-2 text-slate-500 dark:text-white'>
+                            <p className='mt-2 dark:text-gray-200 text-white'>
                                 {project.description}
                             </p>
-                            <div className='mt-5 flex items-center gap-2 font-poppins '>
-                                <Link to={project.link} target='_blank' rel='noopener noreferrer' className='font-semibold text-blue-600 dark:text-blue-100 text-lg'>
+                            <div className='mt-5 flex items-center gap-2 font-poppins hover:text-pink-300'>
+                                <Link to={project.link} target='_blank' rel='noopener noreferrer' className='font-semibold text-white hover:text-pink-300 dark:text-blue-100 text-lg'>
                                     Live Link
                                 </Link>
-                                <FaArrowAltCircleRight size={20} alt="arrow" className='object-contain  dark:text-blue-100 hover:text-pink-400' />
+                                <FaArrowAltCircleRight size={20} alt="arrow" className='object-contain  dark:text-blue-100 ' />
                             </div>
                         </div>
                     </div>

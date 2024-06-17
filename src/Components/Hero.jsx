@@ -4,6 +4,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Environment, Html } from '@react-three/drei';
 import { Bloom, EffectComposer } from '@react-three/postprocessing';
 import globe from '../Assets/cyber_orb.glb';
+import globePic from "../Assets/globe_pic.png"
 
 const Hero = () => {
   const globesize = () => {
@@ -39,18 +40,18 @@ const Hero = () => {
 
   return (
     <div className='w-screen xl:mt-12'>
-      <div className="w-[80%] md:w-[90%] h-[600px] md:grid lg:grid-cols-2 mx-auto items-center ">
-        <div className='w-[80%] h-[500px] flex flex-col items-start sm:ml-[30] md:ml-[70px] lg:ml-36 absolute lg:relative z-10'>
-            <h1 className='text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mt-20 text-left dark:text-white'>SYNTAX SOLUTIONS</h1>
+      <div className="w-[80%] md:w-[90%] h-[500px] sm:h-[600px] md:grid lg:grid-cols-2 mx-auto items-center ">
+        <div className='w-[80%] h-[500px] flex flex-col items-start sm:ml-[30] md:ml-[70px] lg:25 xl:ml-36 absolute lg:relative z-10'>
+            <h1 className='text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mt-20 text-left text-white dark:text-gray-300'>SYNTAX SOLUTIONS</h1>
             <div className='w-[80%] md:w-full '>
-              <p className='text-xl md:text-2xl mt-8 text-left text-wrap dark:text-white'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis qui neque tempore aut, mollitia necessitatibus soluta deleniti at enim incidunt eos laborum sequi hic praesentium!</p>
+              <p className='text-xl md:text-2xl mt-8 text-left text-wrap dark:text-gray-200 text-white'>A software company specializing in modern web applications and advanced .NET solutions, tailored to meet your unique requirements. Delivering high-performance, scalable, and secure solutions using cutting-edge technologies to drive your business forward.</p>
             </div>
-            <button className='mt-8 bg-black w-[150px] dark:bg-gradient-to-r from-[#e469ff] to-[#da08ff] h-[50px] rounded-2xl hover:scale-105 duration-300 ease-in-out hover:shadow-md hover:shadow-purple-900 text-white font-semibold'>Get Started</button>
+            <button className='mt-8 w-[150px] dark:bg-gradient-to-r dark:from-[#0C134F] dark:to-gray-900 bg-gradient-to-r from-[#e469ff] to-[#da08ff] h-[50px] rounded-2xl hover:scale-105 duration-300 ease-in-out hover:shadow-md hover:shadow-purple-900 text-white font-semibold dark:border-2 dark:border-gray-400'>Get Started</button>
         </div>
-        <div className='sm:hidden'>
-            <img src="" alt="" />
+        <div className='lg:hidden w-[400px] h-[400px] md:w-[500px] md:h-[500px] mx-auto pt-10 md:pt-0 opacity-50 dark:opacity-40'>
+            <img src={globePic} alt="" />
         </div>
-        <Canvas className='hidden sm:block' camera={{ position: [3, 3, 3], fov: 50 }} style={{ width: '100%', height: '90%' }}>
+        <Canvas className='hidden lg:block' camera={{ position: [3, 3, 3], fov: 50 }} style={{ width: '100%', height: '90%' }}>
           <ambientLight intensity={1} />
           <directionalLight position={[50, 80, 5]} intensity={0.5} />
           <Suspense fallback={<Html center>Loading...</Html>}>

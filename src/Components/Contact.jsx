@@ -35,10 +35,10 @@ const Contact = () => {
       className='w-[90%] lg:w-[80%] xl:w-[50%] h-[200px] mx-auto mt-20 dark:border-purple-400 border-purple-600 border-2 mb-4 opacity-0 transition-opacity duration-700 shadow-xl'
     >
       <div className='py-10'>
-        <p className='cta-text  mb-5 dark:text-white'>
+        <p className='cta-text  mb-5 dark:text-gray-200 text-white'>
           Have a project in mind? <br className='sm:block hidden' /> Let's build something together!
         </p>
-        <Link to='/Contact' className='btn hover:scale-105'>Contact</Link>
+        <Link to='/Contact' className='btn dark:bg-gradient-to-r dark:from-[#1D267D] dark:to-[#402E7A] bg-gradient-to-r from-[#e469ff] to-[#da08ff]'>Contact</Link>
       </div>
     </div>
   );
