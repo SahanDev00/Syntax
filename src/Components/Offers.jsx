@@ -27,10 +27,10 @@ const Offers = () => {
     <div className='w-[90%] xl:w-[80%] mx-auto mt-32 dark:text-white'>
       <h1 className='text-4xl font-semibold text-white dark:text-gray-200 xl:text-5xl font-poppins'>WHAT WE OFFER!</h1>
         {/* offer one */}
-        <div className='w-full h-[350px] xl:mt-9'>
-          <div className='sm:grid sm:grid-cols-2 h-full w-full'>
+        <div className='w-full lg:h-[350px] xl:mt-9'>
+          <div className='lg:grid lg:grid-cols-2 h-full w-full'>
             <div className=''>
-              <Canvas className='sm:block hidden dark:opacity-85' id="canvas1" camera={{ position: [10, 10, 10], fov: 50 }} >
+              <Canvas className='lg:block hidden dark:opacity-85' id="canvas1" camera={{ position: [10, 10, 10], fov: 50 }} >
                 <ambientLight intensity={0.5} />
                 <directionalLight position={[10, 1, 1]} intensity={2} />
                 <Suspense fallback={<Html center>Loading...</Html>}>

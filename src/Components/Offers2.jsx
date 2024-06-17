@@ -26,15 +26,15 @@ const Offers2 = () => {
   return (
     <div className='w-[90%] xl:w-[80%] mx-auto mt-5 dark:text-white'>
         {/* offer two */}
-        <div className='w-full h-[350px] xl:mt-6'>
-          <div className='sm:grid sm:grid-cols-2 h-full w-full'>
+        <div className='w-full h-[250px] lg:h-[350px] xl:mt-6'>
+          <div className='lg:grid lg:grid-cols-2 h-full w-full'>
             <div>
               {/* Content for offer one */}
               <h1 className='mt-12 sm:mt-20 xl:mt-14 mb-4 sm:mb-8 font-semibold text-2xl xl:text-3xl xl:mr-[5%] underline text-white dark:text-gray-300 font-poppins'>WEB APPLICATIONS</h1>
               <p className='text-xl xl:mr-[5%] text-white dark:text-gray-400 xl:text-2xl'>Elevate your digital experience with web applications featuring modern UIs and immersive 3D models. We design visually stunning, interactive, and user-friendly interfaces that captivate your audience, boost engagement, and enhance your online presence.</p>
             </div>
             <div className=''>
-              <Canvas className='sm:block hidden dark:opacity-85' id="canvas1" camera={{ position: [10, 10, 10], fov: 50 }} >
+              <Canvas className='lg:block hidden dark:opacity-85' id="canvas1" camera={{ position: [10, 10, 10], fov: 50 }} >
                 <ambientLight intensity={0.5} />
                 <directionalLight position={[10, 1, 1]} intensity={2} />
                 <Suspense fallback={<Html center>Loading...</Html>}>
