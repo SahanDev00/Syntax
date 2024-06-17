@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react'
-import logo from "../Assets/logo_white.png"
 import logo2 from "../Assets/logodark.png"
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
