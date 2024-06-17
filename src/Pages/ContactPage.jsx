@@ -49,8 +49,8 @@ const ContactPage = () => {
         <section className='relative w-[70%] xl:w-[50%] mx-auto flex lg:flex-row flex-col max-container h-[650px] '>
             {alert.show && <Alert {...alert}/>}
             <div className='flex-1 min-w-[50%] flex flex-col mt-10'>
-                <h1 className='text-xl lg:text-3xl mt-10 font-semibold text-white'>Contact Us and Let's Make a Project!</h1>
-                <form className='w-full flex flex-col gap-7 mt-14 ' onSubmit={handleSubmit}>
+                <h1 className='text-xl lg:text-3xl mt-10 font-semibold text-white font-poppins'>Contact Us and Let's Make a Project!</h1>
+                <form className='w-full flex flex-col gap-7 mt-14 font-poppins' onSubmit={handleSubmit}>
                     <label className='text-black-500 font-semibold dark:text-gray-200 text-white'>
                         Name
                         <input type="text" name='name' className='input' placeholder='john' required value={form.name} onChange={handleChange} />

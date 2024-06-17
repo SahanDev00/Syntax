@@ -43,7 +43,7 @@ const Navbar = () => {
 
   return (
     <div className='w-full sm:h-[100px] h-[80px]  pt-2'>  
-      <div className='w-[90%] sm:w-[85%] md:w-[80%] h-full mx-auto flex justify-between items-center'> 
+      <div className='w-[90%] sm:w-[85%] md:w-[80%] h-full mx-auto flex justify-between items-center font-poppins'> 
         <div>
           <img src={logo2} alt="" className='w-[100px] h-[100px] sm:w-[130px] sm:h-[130px]'/>
         </div>

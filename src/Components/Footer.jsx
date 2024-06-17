@@ -11,7 +11,7 @@ const Footer = () => {
         <div className='w-full h-[100px] sm:h-[80px] md:h-[130px] mt-28 '>
             <hr/>
             <div className='w-full h-full'>
-                <div className='w-full h-full grid grid-cols-2 md:grid-cols-3'>
+                <div className='w-full h-full grid grid-cols-2 md:grid-cols-3 font-poppins'>
                     <div className='flex items-center ml-10 justify-center'>
                     <img src={logo2} alt="" className='w-[100px] h-[100px] sm:w-[130px] sm:h-[130px]'/>
                     </div>

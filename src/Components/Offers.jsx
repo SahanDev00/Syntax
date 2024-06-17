@@ -25,7 +25,7 @@ const Offers = () => {
 
   return (
     <div className='w-[90%] xl:w-[80%] mx-auto mt-32 dark:text-white'>
-      <h1 className='text-4xl font-semibold text-white dark:text-gray-200 xl:text-5xl'>WHAT WE OFFER!</h1>
+      <h1 className='text-4xl font-semibold text-white dark:text-gray-200 xl:text-5xl font-poppins'>WHAT WE OFFER!</h1>
         {/* offer one */}
         <div className='w-full h-[350px] xl:mt-9'>
           <div className='sm:grid sm:grid-cols-2 h-full w-full'>
@@ -49,7 +49,7 @@ const Offers = () => {
             </div>
             <div>
               {/* Content for offer one */}
-              <h1 className='mt-12 sm:mt-20 xl:mt-14 mb-4 sm:mb-8 font-semibold text-2xl  xl:mr-[5%] underline text-white dark:text-gray-300 xl:text-3xl'>SOFTWARES</h1>
+              <h1 className='mt-12 sm:mt-20 xl:mt-14 mb-4 sm:mb-8 font-semibold text-2xl  xl:mr-[5%] underline text-white dark:text-gray-300 xl:text-3xl font-poppins'>SOFTWARES</h1>
               <p className='text-xl xl:mr-[5%] text-white dark:text-gray-400 xl:text-2xl'>Harness the power of .NET technology for developing robust, scalable, and high-performance software solutions. Our expertise in .NET ensures your applications are secure, reliable, and capable of handling complex business processes efficiently.</p>
             </div>
           </div>

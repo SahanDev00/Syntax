@@ -6,6 +6,10 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {},
+    fontFamily: {
+      poppins: ['Poppins', 'sans-serif'],
+      mono: ["Share Tech Mono", "monospace"]
+    },
   },
   plugins: [],
 }
