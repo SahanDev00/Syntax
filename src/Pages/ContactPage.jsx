@@ -58,7 +58,7 @@ const ContactPage = () => {
                     <Suspense fallback={<Html center>Loading...</Html>}>
                         {/* Use the Model component with the path to your GLB model */}
                         <AiHead modelPath={head}  />
-                        <Environment preset="park" />
+                        <Environment preset="warehouse" />
                     </Suspense>
                 </Canvas>
             </div>
