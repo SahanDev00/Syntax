@@ -49,7 +49,7 @@ const Hero = () => {
               <p className='text-xl md:text-2xl mt-8 text-left text-wrap dark:text-gray-200 text-white '>A software company specializing in modern web applications and advanced .NET solutions, tailored to meet your unique requirements. Delivering high-performance, scalable, and secure solutions using cutting-edge technologies to drive your business forward.</p>
             </div>
             <NavLink to="/Contact">
-              <button className='mt-8 w-[150px] dark:bg-gradient-to-r dark:from-[#0C134F] font-poppins dark:to-gray-900 bg-gradient-to-r from-[#e469ff] to-[#da08ff] h-[50px] rounded-2xl hover:scale-105 duration-300 ease-in-out hover:shadow-md hover:shadow-purple-900 text-white font-semibold dark:border-2 dark:border-gray-400'>Get Started</button>
+              <button className='mt-8 w-[150px] dark:bg-gradient-to-r dark:from-[#0C134F] font-poppins dark:to-gray-900 bg-gradient-to-r from-[#e469ff] to-[#da08ff] h-[50px] rounded-2xl hover:scale-105 duration-300 ease-in-out hover:shadow-md hover:shadow-purple-900 text-white font-semibold border-2 border-white dark:border-gray-400'>Get Started</button>
             </NavLink>
         </div>
         <div className='lg:hidden w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] mx-auto pt-10 md:pt-0 opacity-50 dark:opacity-40'>
