@@ -40,6 +40,7 @@ const Hero = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  
   return (
     <div className='w-screen xl:mt-12'>
       <div className="w-[80%] md:w-[90%] h-[500px] sm:h-[600px] md:grid lg:grid-cols-2 mx-auto items-center ">

@@ -1,7 +1,11 @@
-import React, { useState } from 'react'
+import React, { Suspense, useState } from 'react'
 import emailjs from 'emailjs-com';
 import useAlert from "../Assets/Hooks/useAlert"
 import Alert from '../Components/Alert';
+import { Canvas } from '@react-three/fiber';
+import {  Environment, Html } from '@react-three/drei';
+import AiHead from '../Components/AiHead';
+import head from "../Assets/head.glb"
 
 const ContactPage = () => {
     
@@ -46,7 +50,18 @@ const ContactPage = () => {
     };
 
     return (
-        <section className='relative w-[70%] xl:w-[50%] mx-auto flex lg:flex-row flex-col max-container h-[650px] '>
+        <section className='relative w-[70%] xl:w-[80%] mx-auto flex lg:flex-row flex-col max-container h-[650px] xl:grid xl:grid-cols-2 '>
+            <div className=" justify-center items-center h-[700px] mt-4 mx-auto hidden xl:flex">
+                <Canvas className='dark:opacity-70'>
+                    <ambientLight intensity={0.05} />
+                    <pointLight position={[8, 8, 8]} />
+                    <Suspense fallback={<Html center>Loading...</Html>}>
+                        {/* Use the Model component with the path to your GLB model */}
+                        <AiHead modelPath={head}  />
+                        <Environment preset="park" />
+                    </Suspense>
+                </Canvas>
+            </div>
             {alert.show && <Alert {...alert}/>}
             <div className='flex-1 min-w-[50%] flex flex-col mt-10'>
                 <h1 className='text-xl lg:text-3xl mt-10 font-semibold text-white font-poppins'>Contact Us and Let's Make a Project!</h1>
