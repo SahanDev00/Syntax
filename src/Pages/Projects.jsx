@@ -54,9 +54,9 @@ const Projects = () => {
             <div className='mt-5 flex flex-col gap-3 text-slate-500'>
                 <p className='text-xl mt-3 dark:text-gray-200 text-white font-poppins'> Discover a showcase of my front-end development work. From dynamic and responsive websites to captivating user interfaces, each project demonstrates my expertise in creating visually stunning and highly functional digital experiences. Explore the portfolio to see how I bring ideas to life through code and design.</p>
             </div>
-            <div className='flex flex-wrap my-20 gap-16 text-left ml-10'>
+            <div className='flex flex-wrap my-20 gap-16 text-left ml-2 lg:ml-10'>
                 {projects.map((project) => (
-                    <div className='lg:w-[400px] w-full text-white dark:text-gray-100' key={project.name}>
+                    <div className=' lg:w-[400px] w-full text-white dark:text-gray-100 border-2 p-4 shadow-md shadow-purple-500 hover:scale-105 duration-200 bg-black/10 dark:shadow-purple-800' key={project.name}>
                         <div className=' w-12 h-12'>
                             <div className={` rounded-xl ${project.theme}`} />
                             <div className=' rounded-xl flex justify-center items-center'>

@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
     return (
-        <div className='w-full h-[100px] sm:h-[80px] md:h-[130px] mt-28 '>
+        <div className='w-full h-[100px] sm:h-[80px] md:h-[130px] mt-20 '>
             <hr/>
             <div className='w-full h-full'>
                 <div className='w-full h-full grid grid-cols-2 md:grid-cols-3 font-poppins'>

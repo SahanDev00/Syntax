@@ -28,9 +28,9 @@ const Offers2 = () => {
         {/* offer two */}
         <div className='w-full h-[250px] lg:h-[350px] xl:mt-6'>
           <div className='lg:grid lg:grid-cols-2 h-full w-full'>
-            <div>
+            <div className=' p-4 border-2 border-white lg:border-0 shadow-lg shadow-purple-600 lg:shadow-none mt-6 hover:scale-105 lg:hover:scale-100 duration-300 ease-in-out'>
               {/* Content for offer one */}
-              <h1 className='mt-12 sm:mt-20 xl:mt-14 mb-4 sm:mb-8 font-semibold text-2xl xl:text-3xl xl:mr-[5%] underline text-white dark:text-gray-300 font-poppins'>WEB APPLICATIONS</h1>
+              <h1 className='xl:mt-14 mb-4 sm:mb-8 font-semibold text-2xl xl:text-3xl xl:mr-[5%] underline text-white dark:text-gray-300 font-poppins'>WEB APPLICATIONS</h1>
               <p className='text-xl xl:mr-[5%] text-white dark:text-gray-400 xl:text-2xl'>Elevate your digital experience with web applications featuring modern UIs and immersive 3D models. We design visually stunning, interactive, and user-friendly interfaces that captivate your audience, boost engagement, and enhance your online presence.</p>
             </div>
             <div className=''>
