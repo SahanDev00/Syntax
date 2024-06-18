@@ -74,7 +74,7 @@ const Navbar = () => {
             <ul className='flex flex-col font-semibold text-lg space-y-5 dark:text-gray-100 text-white'>
               <NavLink to="/" exact className={`cursor-pointer hover:shadow-sm hover:scale-105 duration-100 ${isActive('/') ? 'underline pb-1' : ''}`}>Home</NavLink>
               <NavLink to="/projects" className={`cursor-pointer hover:shadow-sm hover:scale-105 duration-100 ${isActive('/projects') ? 'underline pb-1' : ''}`}>Projects</NavLink>
-              <NavLink to="/contact" className={`cursor-pointer hover:shadow-sm hover:scale-105 duration-100 ${isActive('/Contact') ? 'underline pb-1' : ''}`}>Contact Us</NavLink>
+              <NavLink to="/Contact" className={`cursor-pointer hover:shadow-sm hover:scale-105 duration-100 ${isActive('/Contact') ? 'underline pb-1' : ''}`}>Contact Us</NavLink>
             </ul>
           </div>
         </div>
