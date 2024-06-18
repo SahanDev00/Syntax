@@ -1,5 +1,5 @@
 import React from 'react';
-import logo2 from "../Assets/logodark.png"
+import logo2 from "../Assets/logodark.webp"
 import {
     FaInstagram,
     FaTwitter,

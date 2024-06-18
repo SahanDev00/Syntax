@@ -4,8 +4,8 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Environment, Html } from '@react-three/drei';
 import { Bloom, EffectComposer } from '@react-three/postprocessing';
 import globe from '../Assets/cyber_orb.glb';
-import globePic from "../Assets/globe_pic.png"
-import aiPic from "../Assets/aiPic.png"
+import globePic from "../Assets/globe_pic.webp"
+import aiPic from "../Assets/aiPic.webp"
 
 const Hero = () => {
   const globesize = () => {
