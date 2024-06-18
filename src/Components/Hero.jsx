@@ -49,7 +49,7 @@ const Hero = () => {
             </div>
             <button className='mt-8 w-[150px] dark:bg-gradient-to-r dark:from-[#0C134F] font-poppins dark:to-gray-900 bg-gradient-to-r from-[#e469ff] to-[#da08ff] h-[50px] rounded-2xl hover:scale-105 duration-300 ease-in-out hover:shadow-md hover:shadow-purple-900 text-white font-semibold dark:border-2 dark:border-gray-400'>Get Started</button>
         </div>
-        <div className='lg:hidden w-[400px] h-[400px] md:w-[500px] md:h-[500px] mx-auto pt-10 md:pt-0 opacity-50 dark:opacity-40'>
+        <div className='lg:hidden w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] mx-auto pt-10 md:pt-0 opacity-50 dark:opacity-40'>
             <img src={globePic} alt="" />
         </div>
         <div className='absolute w-[550px] ml-[180px] dark:opacity-30 opacity-50 hidden lg:block'>
