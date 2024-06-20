@@ -32,7 +32,7 @@ const Contact = () => {
   return (
     <div
       ref={contactRef}
-      className='w-[90%] lg:w-[80%] xl:w-[50%] h-[200px] mx-auto mt-40 sm:mt-16 md:mt-10 lg:mt-32 dark:border-purple-400 border-purple-600 border-2 mb-4 opacity-0 transition-opacity duration-700 shadow-xl'
+      className='w-[90%] lg:w-[80%] xl:w-[50%] h-[200px] mx-auto mt-40 sm:mt-32 md:mt-36 lg:mt-32 xl:mt-40 dark:border-purple-400 border-purple-600 border-2 mb-4 opacity-0 transition-opacity duration-700 shadow-xl'
     >
       <div className='py-10'>
         <p className='cta-text  mb-5 dark:text-gray-200 text-white font-poppins'>

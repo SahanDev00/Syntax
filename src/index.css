@@ -58,3 +58,16 @@
     opacity: 1 !important;
     animation: floatUp 1s ease-out forwards;
   }
+
+ .slick-dots li button:before {
+    @apply bg-purple-300; /* Tailwind CSS class for the dot's background color */
+    color: #d27edd; /* Custom color for the dots */
+    border-radius: 100%;
+    opacity: 1; /* Ensure the color is fully opaque */
+}
+
+.slick-dots li.slick-active button:before {
+    @apply bg-purple-500; /* Tailwind CSS class for the active dot's background color */
+    color: #d27edd; /* Custom color for the active dot */
+    opacity: 1; /* Ensure the color is fully opaque */
+}

@@ -4,6 +4,7 @@ import Offers2 from '../Components/Offers2';
 import Hero from '../Components/Hero';
 import Slider from '../Components/Slider';
 import Contact from '../Components/Contact';
+import Testimonial from '../Components/Testimonial';
 
 const Homepage = () => {
   return (
@@ -12,6 +13,7 @@ const Homepage = () => {
       <Slider/>
       <Offers/>
       <Offers2/>
+      <Testimonial/>
       <Contact/>
     </div>
   );
