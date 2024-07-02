@@ -17,8 +17,8 @@ const icons = [
 
 const Slider = () => {
   return (
-    <div className=' w-[80%] xl:w-[60%] h-[80px] md:h-[100px] mx-auto rounded-full mt-[90px] sm:mt-[-90px] md:mt-[40px] lg:mt-6 items-center relative overflow-hidden bg-[#9400FF] dark:bg-[#030637] shadow-md border-2 border-white'>
-      <div className='flex animate-icons pt-5 md:pt-7 text-white'>
+    <div className=' w-[80%] xl:w-[60%] 4xr:w-[70%] 4xr:h-[130px] h-[80px] md:h-[100px] mx-auto rounded-full mt-[90px] sm:mt-[-90px] md:mt-[40px] lg:mt-6 xl:mt-28 4xr:mt-52 items-center relative overflow-hidden bg-[#9400FF] dark:bg-[#030637] shadow-md border-2 border-white'>
+      <div className='flex animate-icons pt-5 md:pt-7 4xr:pt-10 text-white'>
         {[...icons, ...icons, ...icons, ...icons, ...icons,].map((icon, index) => (
           <div key={index} className="icon">
             {icon}

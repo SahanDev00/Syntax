@@ -66,8 +66,8 @@ const Testimonial = () => {
   };
 
   return (
-    <div className='w-[90%] lg:w-[80%] h-[250px] sm:h-[200px] md:h-[300px] lg:h-[350px] xl:h-[300px] 2xl:h-[270px] mt-36 sm:mt-24 md:mt-16 lg:mt-32 mx-auto'>
-        <h1 className='text-white dark:text-gray-200 sm:text-3xl text-3xl lg:text-5xl font-bold mb-5'>TESTIMONIALS</h1>
+    <div className='w-[90%] lg:w-[80%] h-[250px] sm:h-[200px] md:h-[300px] lg:h-[350px] xl:h-[300px] 2xl:h-[270px] mt-36 sm:mt-24 md:mt-16 lg:mt-32 4xr:mt-44 mx-auto'>
+        <h1 className='text-white dark:text-gray-200 sm:text-3xl text-3xl lg:text-5xl font-bold mb-5 4xr:text-7xl'>TESTIMONIALS</h1>
         <Slider {...settings} className='h-full w-[90%] md:w-[90%] text-white mx-auto'>
           {reviews.map((review, index) => (
               <div key={index}>

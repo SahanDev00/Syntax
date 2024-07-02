@@ -24,12 +24,12 @@ const Offers = () => {
   }, []);
 
   return (
-    <div className='w-[90%] xl:w-[80%] mx-auto mt-32 dark:text-white'>
-      <h1 className='text-4xl font-semibold text-white dark:text-gray-200 xl:text-5xl font-poppins'>WHAT WE OFFER!</h1>
+    <div className='w-[90%] xl:w-[80%] mx-auto mt-32 dark:text-white 4xr:mt-[-50px]'>
+      <h1 className='text-4xl font-semibold text-white dark:text-gray-200 xl:text-5xl font-poppins 4xr:text-7xl'>WHAT WE OFFER!</h1>
         {/* offer one */}
         <div className='w-full lg:h-[350px] xl:mt-9'>
           <div className='lg:grid lg:grid-cols-2 h-full w-full'>
-            <div className=' '>
+            <div className='3xr:pt-10'>
               <Canvas className='lg:block hidden dark:opacity-85' id="canvas1" camera={{ position: [10, 10, 10], fov: 50 }} >
                 <ambientLight intensity={0.5} />
                 <directionalLight position={[10, 1, 1]} intensity={2} />
@@ -49,8 +49,8 @@ const Offers = () => {
             </div>
             <div className=' p-4 border-2 border-white lg:border-0 shadow-lg shadow-purple-600 lg:shadow-none mt-6 hover:scale-105 lg:hover:scale-100 duration-300 ease-in-out'>
               {/* Content for offer one */}
-              <h1 className=' xl:mt-14 mb-4 sm:mb-8 font-semibold text-2xl  xl:mr-[5%] underline text-white dark:text-gray-300 xl:text-3xl font-poppins'>SOFTWARES</h1>
-              <p className='text-xl xl:mr-[5%] text-white dark:text-gray-400 xl:text-2xl'>Harness the power of .NET technology for developing robust, scalable, and high-performance software solutions. Our expertise in .NET ensures your applications are secure, reliable, and capable of handling complex business processes efficiently.</p>
+              <h1 className=' xl:mt-14 mb-4 sm:mb-8 font-semibold text-2xl  xl:mr-[5%] underline text-white dark:text-gray-300 xl:text-3xl font-poppins 4xr:text-4xl'>SOFTWARES</h1>
+              <p className='text-xl xl:mr-[5%] text-white dark:text-gray-400 xl:text-2xl 4xr:text-3xl'>Harness the power of .NET technology for developing robust, scalable, and high-performance software solutions. Our expertise in .NET ensures your applications are secure, reliable, and capable of handling complex business processes efficiently.</p>
             </div>
           </div>
         </div>

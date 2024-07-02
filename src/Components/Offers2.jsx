@@ -24,14 +24,14 @@ const Offers2 = () => {
   }, []);
 
   return (
-    <div className='w-[90%] xl:w-[80%] mx-auto mt-5 dark:text-white'>
+    <div className='w-[90%] xl:w-[80%] mx-auto mt-5 dark:text-white 4xr:mt-7'>
         {/* offer two */}
         <div className='w-full h-[250px] lg:h-[350px] xl:mt-6'>
           <div className='lg:grid lg:grid-cols-2 h-full w-full'>
             <div className=' p-4 border-2 border-white lg:border-0 shadow-lg shadow-purple-600 lg:shadow-none mt-6 hover:scale-105 lg:hover:scale-100 duration-300 ease-in-out'>
               {/* Content for offer one */}
-              <h1 className='xl:mt-14 mb-4 sm:mb-8 font-semibold text-2xl xl:text-3xl xl:mr-[5%] underline text-white dark:text-gray-300 font-poppins'>WEB APPLICATIONS</h1>
-              <p className='text-xl xl:mr-[5%] text-white dark:text-gray-400 xl:text-2xl'>Elevate your digital experience with web applications featuring modern UIs and immersive 3D models. We design visually stunning, interactive, and user-friendly interfaces that captivate your audience, boost engagement, and enhance your online presence.</p>
+              <h1 className='xl:mt-14 mb-4 sm:mb-8 font-semibold text-2xl xl:text-3xl xl:mr-[5%] underline text-white dark:text-gray-300 font-poppins 4xr:text-4xl'>WEB APPLICATIONS</h1>
+              <p className='text-xl xl:mr-[5%] text-white dark:text-gray-400 xl:text-2xl 4xr:text-3xl'>Elevate your digital experience with web applications featuring modern UIs and immersive 3D models. We design visually stunning, interactive, and user-friendly interfaces that captivate your audience, boost engagement, and enhance your online presence.</p>
             </div>
             <div className=''>
               <Canvas className='lg:block hidden dark:opacity-85' id="canvas1" camera={{ position: [10, 10, 10], fov: 50 }} >
