@@ -27,7 +27,7 @@
     }
   
     .cta-text {
-      @apply font-extrabold flex-1 text-2xl md:text-3xl max-md:text-center;
+      @apply font-extrabold flex-1 text-2xl md:text-3xl md:text-center;
     }
 
     .btn {

@@ -5,12 +5,23 @@ import estate from "../Assets/icons/estate.svg";
 import holiday from "../Assets/icons/holiday.svg";
 import grave from "../Assets/icons/grave.svg";
 import Travel from "../Assets/icons/Travel.svg";
-import food from "../Assets/icons/food.svg";
+import food from "../Assets/icons/food.svg"; 
+import zesty from "../Assets/icons/zesty.svg"; 
+import senex from "../Assets/icons/senex.svg"; 
+import syntaxware from "../Assets/icons/syntaxware.svg"; 
+import game from "../Assets/icons/game.svg"; 
 
 
 const Projects = () => {
   const projects = [
     
+    {
+        iconUrl: syntaxware,
+        theme: 'btn-back-red',
+        name: 'SyntaxWare',
+        description: 'Modern Interactive 3D Web Application for a Software Company.',
+        link: 'https://syntaxware.netlify.app/',
+    },
     {
         iconUrl: grave,
         theme: 'btn-back-red',
@@ -19,11 +30,32 @@ const Projects = () => {
         link: 'https://gravestore.netlify.app/',
     },
     {
+        iconUrl: zesty,
+        theme: 'btn-back-yellow',
+        name: "Zesty",
+        description: 'A Modern interactive 3D Web application with a chatbot.',
+        link: 'https://zesty-ai.netlify.app',
+    },
+    {
+        iconUrl: senex,
+        theme: 'btn-back-yellow',
+        name: "Senex",
+        description: 'An E-Commerce web application for a Computer Shop.',
+        link: 'https://senex-computers.netlify.app',
+    },
+    {
         iconUrl: food,
         theme: 'btn-back-yellow',
         name: "PoP's",
         description: 'A website for a restaurant made with React.js + Tailwind.css',
         link: 'https://popsfoods.netlify.app',
+    },
+    {
+        iconUrl: game,
+        theme: 'btn-back-yellow',
+        name: "Game",
+        description: 'A 3D game created for Testing Purpose',
+        link: 'https://3dgames.netlify.app/',
     },
     {
         iconUrl: Travel,
