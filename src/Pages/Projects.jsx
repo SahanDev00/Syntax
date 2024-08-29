@@ -10,6 +10,8 @@ import zesty from "../Assets/icons/zesty.svg";
 import senex from "../Assets/icons/senex.svg"; 
 import syntaxware from "../Assets/icons/syntaxware.svg"; 
 import game from "../Assets/icons/game.svg"; 
+import money from "../Assets/icons/money.svg"; 
+import mat from "../Assets/icons/mat.svg"; 
 
 
 const Projects = () => {
@@ -40,8 +42,29 @@ const Projects = () => {
         iconUrl: senex,
         theme: 'btn-back-yellow',
         name: "Senex",
+        description: 'An E-Commerce web application for a Computer Shop using APIs.',
+        link: 'https://senex3.netlify.app',
+    },
+    {
+        iconUrl: senex,
+        theme: 'btn-back-yellow',
+        name: "Senex 2",
         description: 'An E-Commerce web application for a Computer Shop.',
         link: 'https://senex-computers.netlify.app',
+    },
+    {
+        iconUrl: money,
+        theme: 'btn-back-yellow',
+        name: "emPower",
+        description: 'A static website for a software company. (For Company Purpose)',
+        link: 'https://empayroll.netlify.app/',
+    },
+    {
+        iconUrl: mat,
+        theme: 'btn-back-yellow',
+        name: "Crystal",
+        description: 'An E-Commerce website for a Mat Floor Solution company using APIs.',
+        link: 'https://crystal-mats.netlify.app/',
     },
     {
         iconUrl: food,
