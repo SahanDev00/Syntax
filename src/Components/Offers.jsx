@@ -50,7 +50,7 @@ const Offers = () => {
             <div className=' p-4 border-2 border-white lg:border-0 shadow-lg shadow-purple-600 lg:shadow-none mt-6 hover:scale-105 lg:hover:scale-100 duration-300 ease-in-out'>
               {/* Content for offer one */}
               <h1 className=' xl:mt-14 mb-4 sm:mb-8 font-semibold text-2xl  xl:mr-[5%] underline text-white dark:text-gray-300 xl:text-3xl font-poppins 4xr:text-4xl'>SOFTWARES</h1>
-              <p className='text-xl xl:mr-[5%] text-white dark:text-gray-400 xl:text-2xl 4xr:text-3xl'>Harness the power of .NET technology for developing robust, scalable, and high-performance software solutions. Our expertise in .NET ensures your applications are secure, reliable, and capable of handling complex business processes efficiently.</p>
+              <p className='text-xl xl:mr-[5%] text-white dark:text-gray-400 xl:text-2xl 4xr:text-3xl text-white/80'>Harness the power of <span className='font-semibold text-white'>.NET technology</span> for developing robust, scalable, and high-performance software solutions. Our expertise in .NET ensures your applications are secure, reliable, and capable of handling complex business processes efficiently.</p>
             </div>
           </div>
         </div>

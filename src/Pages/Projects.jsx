@@ -107,7 +107,7 @@ const Projects = () => {
         <div className=' w-[90%] xl:w-[80%] mx-auto mt-6'>
 
             <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-                <p className='text-xl mt-3 dark:text-gray-200 text-white font-poppins'> Discover a showcase of my front-end development work. From dynamic and responsive websites to captivating user interfaces, each project demonstrates my expertise in creating visually stunning and highly functional digital experiences. Explore the portfolio to see how I bring ideas to life through code and design.</p>
+                <p className='text-xl mt-3 dark:text-gray-200 text-white font-poppins'> Discover a showcase of my web development work. From dynamic and responsive websites to captivating user interfaces, each project demonstrates my expertise in creating visually stunning and highly functional digital experiences. Explore the portfolio to see how I bring ideas to life through code and design.</p>
             </div>
             <div className='flex flex-wrap my-20 gap-16 text-left ml-2 lg:ml-10'>
                 {projects.map((project) => (

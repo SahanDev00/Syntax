@@ -5,12 +5,16 @@ import { TbBrandThreejs } from "react-icons/tb";
 import { FaNodeJs } from "react-icons/fa";
 import { SiCsharp } from "react-icons/si";
 import { PiFileSql } from "react-icons/pi";
+import { SiMongodb } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 
 const icons = [
   <FaReact size={40} />,
   <RiTailwindCssFill size={40} />,
   <TbBrandThreejs size={40} />,
   <FaNodeJs size={40} />,
+  <SiMongodb size={40} />,
+  <SiExpress size={40} />,
   <SiCsharp size={40} />,
   <PiFileSql size={40} />,
 ];
