@@ -67,14 +67,14 @@ const Testimonial = () => {
 
   return (
     <div className='w-[90%] lg:w-[80%] h-[250px] sm:h-[200px] md:h-[300px] lg:h-[350px] xl:h-[300px] 2xl:h-[270px] mt-36 sm:mt-24 md:mt-16 lg:mt-32 4xr:mt-44 mx-auto'>
-        <h1 className='text-white dark:text-gray-200 sm:text-3xl text-3xl lg:text-5xl font-bold mb-5 4xr:text-7xl'>TESTIMONIALS</h1>
+        <h1 className='text-white dark:text-gray-200 sm:text-3xl text-3xl lg:text-5xl font-bold mb-5 4xr:text-7xl font-poppins'>TESTIMONIALS</h1>
         <Slider {...settings} className='h-full w-[90%] md:w-[90%] text-white mx-auto'>
           {reviews.map((review, index) => (
               <div key={index}>
                   <div className=' md:w-[98%] w-[100%] h-[90%] mt-5 p-4 dark:border-purple-400 border-purple-500 border-2 bg-purple-700 dark:shadow-purple-500 shadow-lg dark:bg-black/10'>
                       <img src={review.icons} alt="" className='mx-auto w-10 h-10 object-contain mt-2 rounded-full border-2 p-1' />
                       <p className='text-sm md:text-lg mx-auto align-middle text-wrap px-2 mt-3'>{review.text}</p>
-                      <h1 className='font-semibold text-lg md:text-xl mx-auto mt-2'>: {review.name}</h1>
+                      <h1 className='font-semibold text-lg md:text-xl mx-auto mt-2 font-poppins'>: {review.name}</h1>
                   </div>
               </div>
           ))}
