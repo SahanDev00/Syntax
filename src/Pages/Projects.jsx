@@ -63,7 +63,7 @@ const Projects = () => {
         iconUrl: mat,
         theme: 'btn-back-yellow',
         name: "Crystal",
-        description: 'An E-Commerce website for a Mat Floor Solution company using APIs.',
+        description: 'An E-Commerce website with a Chatbot for a Mat Floor Solution company using APIs.',
         link: 'https://crystal-mats.netlify.app/',
     },
     {
