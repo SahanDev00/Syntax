@@ -74,7 +74,7 @@ const ContactPage = () => {
             </div>
             {alert.show && <Alert {...alert}/>}
             <div className='flex-1 min-w-[50%] flex flex-col mt-10'>
-                <h1 className='text-xl lg:text-3xl mt-10 font-semibold text-white font-poppins'>Contact Us and Let's Make a Project!</h1>
+                <h1 className='text-xl lg:text-3xl mt-10 font-semibold text-white font-poppins'>Contact Syntaxware and Let's Make a Project!</h1>
                 <form className='w-full flex flex-col gap-7 mt-14 font-poppins' onSubmit={handleSubmit}>
                     <label className='text-black-500 font-semibold dark:text-gray-200 text-white'>
                         Name

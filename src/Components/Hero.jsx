@@ -48,7 +48,7 @@ const Hero = () => {
         <div className='w-[80%] h-[500px] flex flex-col items-start sm:ml-[30] md:ml-[70px] lg:25 xl:ml-36 3xr:ml-28 absolute lg:relative z-10 3xr:w-[95%] lg:mt-10 4xr:mt-0'>
             <h1 className='text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mt-20 text-left text-white font-mono drop-shadow-sm 4xr:text-8xl '>SYNTAX SOLUTIONS</h1>
             <div className='w-[80%] md:w-full '>
-              <p className='text-xl md:text-2xl mt-8 text-left text-wrap dark:text-gray-200 text-white 3xr:text-3xl 4xr:text-4xl 4xr:leading-tight'>A software company specializing in modern web applications and advanced .NET solutions, tailored to meet your unique requirements. Delivering high-performance, scalable, and secure solutions using cutting-edge technologies to drive your business forward.</p>
+              <p className='text-xl md:text-2xl mt-8 text-left text-wrap dark:text-gray-200 text-white 3xr:text-3xl 4xr:text-4xl 4xr:leading-tight'>Syntaxware Solutions is A software company specializing in modern web applications and advanced .NET solutions, tailored to meet your unique requirements. Delivering high-performance, scalable, and secure solutions using cutting-edge technologies to drive your business forward.</p>
             </div>
             <NavLink to="/Contact">
               <button className='mt-8 4xr:mt-14 w-[150px] 4xr:w-[230px] 4xr:h-[80px] dark:bg-gradient-to-r dark:from-[#0C134F] font-poppins dark:to-gray-900 bg-gradient-to-r from-[#e469ff] to-[#da08ff] h-[50px] rounded-2xl hover:scale-105 duration-300 ease-in-out hover:shadow-md hover:shadow-purple-900 text-white font-semibold border-2 border-white dark:border-gray-400 4xr:text-2xl'>Get Started</button>
