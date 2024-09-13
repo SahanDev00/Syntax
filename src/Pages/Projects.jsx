@@ -25,6 +25,20 @@ const Projects = () => {
         link: 'https://syntaxware.netlify.app/',
     },
     {
+        iconUrl: mat,
+        theme: 'btn-back-yellow',
+        name: "Crystal",
+        description: 'An E-Commerce website with a Chatbot for a Mat Floor Solution company using APIs.',
+        link: 'https://crystal-mats.netlify.app/',
+    },
+    {
+        iconUrl: senex,
+        theme: 'btn-back-yellow',
+        name: "Senex",
+        description: 'An E-Commerce web application for a Computer Shop using APIs.',
+        link: 'https://senex3.netlify.app',
+    },
+    {
         iconUrl: grave,
         theme: 'btn-back-red',
         name: 'Grave',
@@ -41,13 +55,6 @@ const Projects = () => {
     {
         iconUrl: senex,
         theme: 'btn-back-yellow',
-        name: "Senex",
-        description: 'An E-Commerce web application for a Computer Shop using APIs.',
-        link: 'https://senex3.netlify.app',
-    },
-    {
-        iconUrl: senex,
-        theme: 'btn-back-yellow',
         name: "Senex 2",
         description: 'An E-Commerce web application for a Computer Shop.',
         link: 'https://senex-computers.netlify.app',
@@ -58,13 +65,6 @@ const Projects = () => {
         name: "emPower",
         description: 'A static website for a software company. (For Company Purpose)',
         link: 'https://empayroll.netlify.app/',
-    },
-    {
-        iconUrl: mat,
-        theme: 'btn-back-yellow',
-        name: "Crystal",
-        description: 'An E-Commerce website with a Chatbot for a Mat Floor Solution company using APIs.',
-        link: 'https://crystal-mats.netlify.app/',
     },
     {
         iconUrl: food,
