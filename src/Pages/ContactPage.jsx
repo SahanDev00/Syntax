@@ -53,13 +53,13 @@ const ContactPage = () => {
     return (
         <section className='relative w-[70%] xl:w-[80%] mx-auto flex lg:flex-row flex-col max-container h-[650px] xl:grid xl:grid-cols-2 '>
         <Helmet>
-          <title>SyntaxWare | Contact Us | Best software company in Sri Lanka, Kurunegala, Colombo.</title>
+          <title>SyntaxWare Solutions | Contact Us | Best software company in Sri Lanka, Kurunegala, Colombo.</title>
 
             {/* Meta Description for Search Engines */}
-            <meta name="description" content="SyntaxWare is the best software company in Sri Lanka, specializing in 3d website development, 3d web development, POS systems, payroll systems, and custom software solutions. Serving Kurunegala, Colombo, and beyond. Using cutting edge technologies. React.JS , Tailwind.CSS , 3d websites, three.js, MERN stack, Web api." />
+            <meta name="description" content="SyntaxWare Solutions is the best software company in Sri Lanka, specializing in 3d website development, 3d web development, POS systems, payroll systems, and custom software solutions. Serving Kurunegala, Colombo, and beyond. Using cutting edge technologies. React.JS , Tailwind.CSS , 3d websites, three.js, MERN stack, Web api." />
 
             {/* Keywords for SEO */}
-            <meta name="keywords" content="best software company in Sri Lanka, Kurunegala software company, Colombo software company, POS systems Sri Lanka, payroll systems Sri Lanka, custom software solutions Sri Lanka, web development company, web development companies in sri lanka, website development companies in sri lanka, website development companies in kurunegala, website development companies in sri lanka, 3d website. MERN stack company." />
+            <meta name="keywords" content="Syntaxware Solutions, Syntaxware, Syntaxware company, Syntaware software, syntaxware website, best software company in Sri Lanka, Kurunegala software company, Colombo software company, POS systems Sri Lanka, payroll systems Sri Lanka, custom software solutions Sri Lanka, web development company, web development companies in sri lanka, website development companies in sri lanka, website development companies in kurunegala, website development companies in sri lanka, 3d website. MERN stack company." />
         </Helmet>
             <div className=" justify-center items-center h-[700px] mt-4 mx-auto hidden xl:flex">
                 <Canvas className='dark:opacity-70'>
