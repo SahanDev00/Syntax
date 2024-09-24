@@ -46,7 +46,7 @@ const Hero = () => {
     <div className='w-screen xl:mt-12 4xr:h-screen'>
       <div className="w-[80%] md:w-[90%] h-[500px] sm:h-[500px] xl:h-[560px] 4xr:h-[650px] md:grid lg:grid-cols-2 mx-auto items-center ">
         <div className='w-[80%] h-[500px] flex flex-col items-start sm:ml-[30] md:ml-[70px] lg:25 xl:ml-36 3xr:ml-28 absolute lg:relative z-10 3xr:w-[95%] lg:mt-10 4xr:mt-0'>
-            <h1 className='text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mt-20 text-left text-white font-mono drop-shadow-sm 4xr:text-8xl '>SYNTAX SOLUTIONS</h1>
+            <h1 className='text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mt-20 text-left text-white font-mono drop-shadow-sm 4xr:text-8xl '>SYNTAXWARE SOLUTIONS</h1>
             <div className='w-[80%] md:w-full '>
               <p className='text-xl md:text-2xl mt-8 text-left text-wrap dark:text-gray-200 text-white 3xr:text-3xl 4xr:text-4xl 4xr:leading-tight'>Syntaxware Solutions is a software company specializing in modern web applications and advanced .NET solutions, tailored to meet your unique requirements. Delivering high-performance, scalable, and secure solutions using cutting-edge technologies to drive your business forward.</p>
             </div>
