@@ -3,7 +3,8 @@ import logo2 from "../Assets/logodark.webp"
 import {
     FaInstagram,
     FaTwitter,
-    FaGithub
+    FaGithub,
+    FaTiktok
 } from 'react-icons/fa';
 
 const Footer = () => {
@@ -16,17 +17,20 @@ const Footer = () => {
                     <img src={logo2} alt="" className='w-[100px] h-[100px] sm:w-[130px] sm:h-[130px]'/>
                     </div>
                     <div className='hidden md:flex items-center justify-center'>
-                        <h1 className='font-bold drop-shadow-xl text-sm md:text-xl font-poppins text-white'>© 2024 · SYNTAX SOLUTIONS</h1>
+                        <h1 className='font-bold drop-shadow-xl text-sm md:text-xl font-poppins text-white'>© 2024 · SYNTAXWARE SOLUTIONS</h1>
                     </div>
                     <div className='flex items-center justify-center text-white'>
-                        <a href="https://www.instagram.com/syntaxware">
+                        <a target='_blank' rel="noreferrer" href="https://www.instagram.com/syntaxware">
                             <FaInstagram size={25} className='cursor-pointer mx-1 md:mx-3'/>
                         </a>
-                        <a href="https://twitter.com/SyntaxSolutionz">
+                        <a target='_blank' rel="noreferrer" href="https://twitter.com/SyntaxSolutionz">
                             <FaTwitter size={25} className='cursor-pointer mx-1 md:mx-3'/>
                         </a>
-                        <a href="https://github.com/SahanDev00">
+                        <a target='_blank' rel="noreferrer" href="https://github.com/SahanDev00">
                             <FaGithub size={25} className='cursor-pointer mx-1 md:mx-3'/>
+                        </a>
+                        <a target='_blank' rel="noreferrer" href="https://www.tiktok.com/@syntaxware">
+                            <FaTiktok size={25} className='cursor-pointer mx-1 md:mx-3'/>
                         </a>
                     </div>
                 </div>
