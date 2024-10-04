@@ -11,6 +11,9 @@ import senex from "../Assets/icons/senex.svg";
 import syntaxware from "../Assets/icons/syntaxware.svg"; 
 import game from "../Assets/icons/game.svg"; 
 import money from "../Assets/icons/money.svg"; 
+import WhoDiz from "../Assets/icons/socialMedia.svg"; 
+import creepy from "../Assets/icons/creepy.svg"; 
+import quote from "../Assets/icons/quote.svg"; 
 import mat from "../Assets/icons/mat.svg"; 
 import { Helmet } from 'react-helmet';
 
@@ -48,6 +51,13 @@ const Projects = () => {
         link: 'https://gravestore.netlify.app/',
     },
     {
+        iconUrl: money,
+        theme: 'btn-back-yellow',
+        name: "emPower",
+        description: 'A static website for a software company. (For Company Purpose)',
+        link: 'https://empayroll.netlify.app/',
+    },
+    {
         iconUrl: zesty,
         theme: 'btn-back-yellow',
         name: "Zesty",
@@ -55,18 +65,18 @@ const Projects = () => {
         link: 'https://zesty-ai.netlify.app',
     },
     {
+        iconUrl: WhoDiz,
+        theme: 'btn-back-yellow',
+        name: "WhoDiz",
+        description: 'A Social Media Web App. (On Development)',
+        link: 'https://whodiz.netlify.app/',
+    },
+    {
         iconUrl: senex,
         theme: 'btn-back-yellow',
         name: "Senex 2",
         description: 'An E-Commerce web application for a Computer Shop.',
         link: 'https://senex-computers.netlify.app',
-    },
-    {
-        iconUrl: money,
-        theme: 'btn-back-yellow',
-        name: "emPower",
-        description: 'A static website for a software company. (For Company Purpose)',
-        link: 'https://empayroll.netlify.app/',
     },
     {
         iconUrl: food,
@@ -83,11 +93,25 @@ const Projects = () => {
         link: 'https://3dgames.netlify.app/',
     },
     {
+        iconUrl: creepy,
+        theme: 'btn-back-blue',
+        name: 'Creepify',
+        description: 'A Web Application for Halloween Theme.',
+        link: 'https://creepify.netlify.app/',
+    },
+    {
         iconUrl: Travel,
         theme: 'btn-back-blue',
         name: 'Travel Guide App',
         description: 'Designed and built a fully responsive Travel Guide front-end application.',
         link: 'https://travellerwebapp.netlify.app',
+    },
+    {
+        iconUrl: quote,
+        theme: 'btn-back-blue',
+        name: 'Quote Generator',
+        description: 'Simple Quote Generator for Different Ganre',
+        link: 'https://quote-gens.netlify.app/',
     },
     {
         iconUrl: holiday,
