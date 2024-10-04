@@ -29,14 +29,15 @@ const Projects = () => {
         iconUrl: mat,
         theme: 'btn-back-yellow',
         name: "Crystal",
-        description: 'An E-Commerce website with a Chatbot for a Mat Floor Solution company using APIs.',
-        link: 'https://crystal-mats.netlify.app/',
+        description: 'An Fullstack E-Commerce website with a Chatbot for a Mat Floor Solution company using React.JS and .NET CORE',
+        link: 'https://kmat.worldpos.biz/',
+        //link: 'https://crystal-mats.netlify.app/',
     },
     {
         iconUrl: senex,
         theme: 'btn-back-yellow',
         name: "Senex",
-        description: 'An E-Commerce web application for a Computer Shop using APIs.',
+        description: 'A Fullstack E-Commerce web application for a Computer Shop using React.JS and .NET CORE',
         link: 'https://senex3.netlify.app',
     },
     {
