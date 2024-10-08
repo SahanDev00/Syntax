@@ -10,15 +10,15 @@ const Homepage = () => {
   return (
     <div>
         <Helmet>
-          <title>SyntaxWare Solutions | Best software company in Sri Lanka, Kurunegala, Colombo.</title>
+          <title>Syntaxware Solutions | Best software company in Sri Lanka, Kurunegala, Colombo. | Syntaxware Solutions</title>
 
             {/* Meta Description for Search Engines */}
             <meta name="description" content="SyntaxWare Solutions is the best software company in Sri Lanka, specializing in 3d website development, 3d web development, POS systems, payroll systems, and custom software solutions. Serving Kurunegala, Colombo, and beyond. Using cutting edge technologies. React.JS , Tailwind.CSS , 3d websites, three.js, MERN stack, Web api." />
 
             {/* Keywords for SEO */}
-            <meta name="keywords" content="best software company in Sri Lanka, Kurunegala software company, Colombo software company, POS systems Sri Lanka, payroll systems Sri Lanka, custom software solutions Sri Lanka, web development company, web development companies in sri lanka, website development companies in sri lanka, website development companies in kurunegala, website development companies in sri lanka, 3d website. MERN stack company., E-Commerce websites, E-commerce website companies." />
+            <meta name="keywords" content="best syntaxware software company in Sri Lanka, Kurunegala software company, Colombo software company, POS systems Sri Lanka, payroll systems Sri Lanka, custom software solutions Sri Lanka, web development company, web development companies in sri lanka, website development companies in sri lanka, website development companies in kurunegala, website development companies in sri lanka, 3d website. MERN stack company., E-Commerce websites, E-commerce website companies." />
                         {/* Open Graph for Social Media */}
-                        <meta property="og:title" content="SyntaxWare Solutions | Best Software Company in Sri Lanka | Kurunegala & Colombo" />
+                        <meta property="og:title" content="Syntaxware Solutions | Best Software Company in Sri Lanka | Kurunegala & Colombo, syntaxware solutions" />
             <meta property="og:description" content="Expert software solutions for businesses in Sri Lanka. We provide top-notch POS systems, payroll systems, and customized software solutions." />
 
             <meta property="og:type" content="website" />
