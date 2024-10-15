@@ -15,6 +15,7 @@ import WhoDiz from "../Assets/icons/socialMedia.svg";
 import creepy from "../Assets/icons/creepy.svg"; 
 import quote from "../Assets/icons/quote.svg"; 
 import mat from "../Assets/icons/mat.svg"; 
+import cake from "../Assets/icons/cake.svg"; 
 import { Helmet } from 'react-helmet';
 
 
@@ -49,6 +50,13 @@ const Projects = () => {
         name: 'Grave',
         description: 'Fully Responsive Static Website for E-Commerce.',
         link: 'https://gravestore.netlify.app/',
+    },
+    {
+        iconUrl: cake,
+        theme: 'btn-back-yellow',
+        name: "Sandies",
+        description: 'An E-Commerce website for a Cake Manufacturer.',
+        link: 'https://sandies.netlify.app/',
     },
     {
         iconUrl: money,
